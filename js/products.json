@@ -1,0 +1,29 @@
+{
+  "products": [
+    {
+      "img": "../img/hdd-seagate.jpg",
+      "title": "HDD",
+      "price": "80"
+    },
+    {
+      "img": "../img/ssd-samsung.webp",
+      "title": "SSD",
+      "price": "150"
+    },
+    {
+      "img": "../img/usb-sandisk.jpg",
+      "title": "USB Driver",
+      "price": "8"
+    },
+    {
+      "img": "../img/ssd-samsung.webp",
+      "title": "SSD",
+      "price": "150"
+    },
+    {
+      "img": "../img/usb-sandisk.jpg",
+      "title": "USB Driver",
+      "price": "8"
+    }
+  ]
+}

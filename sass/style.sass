@@ -1,0 +1,103 @@
+*
+  box-sizing: border-box
+body 
+  margin: 0
+  padding: 0
+  font-family: sans-serif
+
+.main 
+  display: flex
+  min-height: 100vh
+
+.products
+  &__wrap
+    display: flex
+    // min-height: 100vh
+    flex-basis: 60%
+    justify-content: space-between
+    flex-wrap: wrap
+    background: linear-gradient(-90deg, #205072, #56c596)
+    padding: 20px
+  &__item
+    width: 240px
+    max-height: 210px
+    padding: 10px 
+    background-color: #5b6368
+    box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.2)
+    border-radius: 5px
+    // margin-bottom: 20px
+    // margin-right: 35px
+    transition: 0.3s all
+    cursor: move
+    &:hover 
+        box-shadow: 4px 4px 40px rgba(0, 0, 0, 0.3)
+  &__img 
+    width: 100%
+    &-wrap
+      width: 220px
+      max-height: 140px
+      border-radius: 5px
+      overflow: hidden
+  &__title
+    // color: #003267
+    color: #fff
+    margin-top: 5px
+  &__price 
+    text-align: center
+    // color: #56c596
+    color: #fff
+    margin-top: 5px
+    font-weight: bold
+
+.cart
+  display: flex
+  justify-content: space-around
+  flex-wrap: wrap
+  width: 100%
+  height: 100%
+  border-radius: 4px
+  &__wrap
+    display: flex
+    justify-content: space-around
+    flex-wrap: wrap
+    flex-basis: 40%
+    // height: 100vh
+    padding: 20px
+    // background-color: lightyellow
+    background-color: #323639
+  &__header
+    display: flex
+    flex-direction: column
+    color: #fff
+    // &-items
+
+.button 
+  max-width: 150px
+  background-color: #56c596
+  border: none
+  border-radius: 40px
+  color: #000
+  padding: 7px 20px
+  outline: 0
+  transition: 0.3s
+  &:hover
+    cursor: pointer
+    color: #fff
+    transform: scale(1.02)
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5)
+
+input
+  font-size: 14px
+  background-color: rgba(0, 0, 0, 0)
+  margin-bottom: 10px
+  padding: 7px
+  border: 2px solid #5b6368
+  color: #fff
+  border-radius: 30px
+  outline: 0
+  -webkit-transition: 0.3s
+  transition: 0.3s
+
+.hovered
+  background-color: #347b7f
+  transition: linear 0.3s
